@@ -131,6 +131,14 @@ nagios-plugins-contrib (6.20130521) unstable; urgency=low
 
  -- Bernd Zeimetz <bzed@debian.org>  Tue, 21 May 2013 22:11:50 +0200
 
+nagios-plugins-contrib (5.20130307ubuntu0.1~aroth~ppa1) quantal; urgency=low
+
+  * bring latest debian package to ubuntu
+  * use sudo for hddtemp in check_lm_sensors
+  * added more lm_sensors commands
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Wed, 13 Mar 2013 07:56:19 +0100
+
 nagios-plugins-contrib (5.20130307) experimental; urgency=low
 
   * [aa113517] Fix typos s/Recommands/Recommends/
@@ -164,6 +172,19 @@ nagios-plugins-contrib (5.20130307) experimental; urgency=low
   * [37896ae4] Add a cciss related bugfix to check_raid.
 
  -- Bernd Zeimetz <bzed@debian.org>  Thu, 07 Mar 2013 00:31:10 +0100
+
+nagios-plugins-contrib (4.20120702ubuntu0.1~aroth~ppa1) quantal; urgency=low
+
+  * backport latest package from raring to quantal
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Fri, 01 Mar 2013 07:35:15 +0100
+
+nagios-plugins-contrib (4.20120702ubuntu1) raring; urgency=low
+
+  * debian/patches/check_memcached/ld-as-needed: Use LDLIBS instead of
+    LDFLAGS to get the link order happy for building with --as-needed.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 01 Feb 2013 20:02:08 -0700
 
 nagios-plugins-contrib (4.20120702) unstable; urgency=low
 
