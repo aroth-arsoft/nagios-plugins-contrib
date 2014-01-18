@@ -1,3 +1,9 @@
+nagios-plugins-contrib (9.20140106.1~aroth~ppa1) saucy; urgency=low
+
+  * package the latest version
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sat, 18 Jan 2014 17:13:57 +0100
+
 nagios-plugins-contrib (9.20140106) unstable; urgency=low
 
   [ Bernd Zeimetz ]
